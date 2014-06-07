@@ -17,53 +17,6 @@
 		2DF29579152E3E5F00969127 /* SBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DF29577152E3E5F00969127 /* SBViewController.xib */; };
 		2DF29581152E3EA500969127 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF29580152E3EA500969127 /* Canvas.m */; };
 		3D49594319434FCF009A7B02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D49594219434FCF009A7B02 /* QuartzCore.framework */; };
-		3D49596919434FE6009A7B02 /* ColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D49594619434FE6009A7B02 /* ColorButton.m */; };
-		3D49596A19434FE6009A7B02 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D49594819434FE6009A7B02 /* ColorViewController.m */; };
-		3D49596B19434FE6009A7B02 /* ColorPopoverLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D49594919434FE6009A7B02 /* ColorPopoverLocalizable.strings */; };
-		3D49596C19434FE6009A7B02 /* GzColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D49594C19434FE6009A7B02 /* GzColors.m */; };
-		3D49596D19434FE6009A7B02 /* UIBarButtonItem+WEPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D49594F19434FE6009A7B02 /* UIBarButtonItem+WEPopover.m */; };
-		3D49596E19434FE6009A7B02 /* WEPopoverContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D49595119434FE6009A7B02 /* WEPopoverContainerView.m */; };
-		3D49596F19434FE6009A7B02 /* WEPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D49595319434FE6009A7B02 /* WEPopoverController.m */; };
-		3D49597019434FE6009A7B02 /* WETouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D49595619434FE6009A7B02 /* WETouchableView.m */; };
-		3D49597119434FE6009A7B02 /* cache2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49595819434FE6009A7B02 /* cache2.png */; };
-		3D49597219434FE6009A7B02 /* popoverArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49595919434FE6009A7B02 /* popoverArrowDown.png */; };
-		3D49597319434FE6009A7B02 /* popoverArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49595A19434FE6009A7B02 /* popoverArrowDown@2x.png */; };
-		3D49597419434FE6009A7B02 /* popoverArrowDownSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49595B19434FE6009A7B02 /* popoverArrowDownSimple.png */; };
-		3D49597519434FE6009A7B02 /* popoverArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49595C19434FE6009A7B02 /* popoverArrowLeft.png */; };
-		3D49597619434FE6009A7B02 /* popoverArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49595D19434FE6009A7B02 /* popoverArrowLeft@2x.png */; };
-		3D49597719434FE6009A7B02 /* popoverArrowLeftSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49595E19434FE6009A7B02 /* popoverArrowLeftSimple.png */; };
-		3D49597819434FE6009A7B02 /* popoverArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49595F19434FE6009A7B02 /* popoverArrowRight.png */; };
-		3D49597919434FE6009A7B02 /* popoverArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49596019434FE6009A7B02 /* popoverArrowRight@2x.png */; };
-		3D49597A19434FE6009A7B02 /* popoverArrowRightSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49596119434FE6009A7B02 /* popoverArrowRightSimple.png */; };
-		3D49597B19434FE6009A7B02 /* popoverArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49596219434FE6009A7B02 /* popoverArrowUp.png */; };
-		3D49597C19434FE6009A7B02 /* popoverArrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49596319434FE6009A7B02 /* popoverArrowUp@2x.png */; };
-		3D49597D19434FE6009A7B02 /* popoverArrowUpSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49596419434FE6009A7B02 /* popoverArrowUpSimple.png */; };
-		3D49597E19434FE6009A7B02 /* popoverBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49596519434FE6009A7B02 /* popoverBg.png */; };
-		3D49597F19434FE6009A7B02 /* popoverBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49596619434FE6009A7B02 /* popoverBg@2x.png */; };
-		3D49598019434FE6009A7B02 /* popoverBgSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49596719434FE6009A7B02 /* popoverBgSimple.png */; };
-		3D49598119434FE6009A7B02 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3D49596819434FE6009A7B02 /* README */; };
-		3D49599C19435E2F009A7B02 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49598619435E2F009A7B02 /* b.png */; };
-		3D49599D19435E2F009A7B02 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49598719435E2F009A7B02 /* Black.png */; };
-		3D49599E19435E2F009A7B02 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49598819435E2F009A7B02 /* Blue.png */; };
-		3D49599F19435E2F009A7B02 /* Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49598919435E2F009A7B02 /* Brown.png */; };
-		3D4959A019435E2F009A7B02 /* Custom-Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49598A19435E2F009A7B02 /* Custom-Color.png */; };
-		3D4959A119435E2F009A7B02 /* DarkGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49598B19435E2F009A7B02 /* DarkGreen.png */; };
-		3D4959A219435E2F009A7B02 /* DarkOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49598C19435E2F009A7B02 /* DarkOrange.png */; };
-		3D4959A319435E2F009A7B02 /* Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49598D19435E2F009A7B02 /* Eraser.png */; };
-		3D4959A419435E2F009A7B02 /* g.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49598E19435E2F009A7B02 /* g.png */; };
-		3D4959A519435E2F009A7B02 /* Grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49598F19435E2F009A7B02 /* Grey.png */; };
-		3D4959A619435E2F009A7B02 /* LightBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599019435E2F009A7B02 /* LightBlue.png */; };
-		3D4959A719435E2F009A7B02 /* LightGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599119435E2F009A7B02 /* LightGreen.png */; };
-		3D4959A819435E2F009A7B02 /* Opacity.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599219435E2F009A7B02 /* Opacity.png */; };
-		3D4959A919435E2F009A7B02 /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599319435E2F009A7B02 /* r.png */; };
-		3D4959AA19435E2F009A7B02 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599419435E2F009A7B02 /* Red.png */; };
-		3D4959AB19435E2F009A7B02 /* reset-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599519435E2F009A7B02 /* reset-Small.png */; };
-		3D4959AC19435E2F009A7B02 /* Save-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599619435E2F009A7B02 /* Save-Small.png */; };
-		3D4959AD19435E2F009A7B02 /* Setting-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599719435E2F009A7B02 /* Setting-1.png */; };
-		3D4959AE19435E2F009A7B02 /* Setting-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599819435E2F009A7B02 /* Setting-2.png */; };
-		3D4959AF19435E2F009A7B02 /* thickness.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599919435E2F009A7B02 /* thickness.png */; };
-		3D4959B019435E2F009A7B02 /* width.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599A19435E2F009A7B02 /* width.png */; };
-		3D4959B119435E2F009A7B02 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D49599B19435E2F009A7B02 /* Yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,61 +36,6 @@
 		2DF2957F152E3EA500969127 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
 		2DF29580152E3EA500969127 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
 		3D49594219434FCF009A7B02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		3D49594519434FE6009A7B02 /* ColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorButton.h; sourceTree = "<group>"; };
-		3D49594619434FE6009A7B02 /* ColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorButton.m; sourceTree = "<group>"; };
-		3D49594719434FE6009A7B02 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
-		3D49594819434FE6009A7B02 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
-		3D49594A19434FE6009A7B02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ColorPopoverLocalizable.strings; sourceTree = "<group>"; };
-		3D49594B19434FE6009A7B02 /* GzColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GzColors.h; sourceTree = "<group>"; };
-		3D49594C19434FE6009A7B02 /* GzColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GzColors.m; sourceTree = "<group>"; };
-		3D49594E19434FE6009A7B02 /* UIBarButtonItem+WEPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WEPopover.h"; sourceTree = "<group>"; };
-		3D49594F19434FE6009A7B02 /* UIBarButtonItem+WEPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WEPopover.m"; sourceTree = "<group>"; };
-		3D49595019434FE6009A7B02 /* WEPopoverContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverContainerView.h; sourceTree = "<group>"; };
-		3D49595119434FE6009A7B02 /* WEPopoverContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverContainerView.m; sourceTree = "<group>"; };
-		3D49595219434FE6009A7B02 /* WEPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverController.h; sourceTree = "<group>"; };
-		3D49595319434FE6009A7B02 /* WEPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverController.m; sourceTree = "<group>"; };
-		3D49595419434FE6009A7B02 /* WEPopoverParentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverParentView.h; sourceTree = "<group>"; };
-		3D49595519434FE6009A7B02 /* WETouchableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WETouchableView.h; sourceTree = "<group>"; };
-		3D49595619434FE6009A7B02 /* WETouchableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WETouchableView.m; sourceTree = "<group>"; };
-		3D49595819434FE6009A7B02 /* cache2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cache2.png; sourceTree = "<group>"; };
-		3D49595919434FE6009A7B02 /* popoverArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDown.png; sourceTree = "<group>"; };
-		3D49595A19434FE6009A7B02 /* popoverArrowDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowDown@2x.png"; sourceTree = "<group>"; };
-		3D49595B19434FE6009A7B02 /* popoverArrowDownSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDownSimple.png; sourceTree = "<group>"; };
-		3D49595C19434FE6009A7B02 /* popoverArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeft.png; sourceTree = "<group>"; };
-		3D49595D19434FE6009A7B02 /* popoverArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowLeft@2x.png"; sourceTree = "<group>"; };
-		3D49595E19434FE6009A7B02 /* popoverArrowLeftSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeftSimple.png; sourceTree = "<group>"; };
-		3D49595F19434FE6009A7B02 /* popoverArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRight.png; sourceTree = "<group>"; };
-		3D49596019434FE6009A7B02 /* popoverArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowRight@2x.png"; sourceTree = "<group>"; };
-		3D49596119434FE6009A7B02 /* popoverArrowRightSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRightSimple.png; sourceTree = "<group>"; };
-		3D49596219434FE6009A7B02 /* popoverArrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUp.png; sourceTree = "<group>"; };
-		3D49596319434FE6009A7B02 /* popoverArrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowUp@2x.png"; sourceTree = "<group>"; };
-		3D49596419434FE6009A7B02 /* popoverArrowUpSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUpSimple.png; sourceTree = "<group>"; };
-		3D49596519434FE6009A7B02 /* popoverBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBg.png; sourceTree = "<group>"; };
-		3D49596619434FE6009A7B02 /* popoverBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverBg@2x.png"; sourceTree = "<group>"; };
-		3D49596719434FE6009A7B02 /* popoverBgSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBgSimple.png; sourceTree = "<group>"; };
-		3D49596819434FE6009A7B02 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		3D49598619435E2F009A7B02 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
-		3D49598719435E2F009A7B02 /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
-		3D49598819435E2F009A7B02 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
-		3D49598919435E2F009A7B02 /* Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brown.png; sourceTree = "<group>"; };
-		3D49598A19435E2F009A7B02 /* Custom-Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom-Color.png"; sourceTree = "<group>"; };
-		3D49598B19435E2F009A7B02 /* DarkGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkGreen.png; sourceTree = "<group>"; };
-		3D49598C19435E2F009A7B02 /* DarkOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkOrange.png; sourceTree = "<group>"; };
-		3D49598D19435E2F009A7B02 /* Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eraser.png; sourceTree = "<group>"; };
-		3D49598E19435E2F009A7B02 /* g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g.png; sourceTree = "<group>"; };
-		3D49598F19435E2F009A7B02 /* Grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grey.png; sourceTree = "<group>"; };
-		3D49599019435E2F009A7B02 /* LightBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBlue.png; sourceTree = "<group>"; };
-		3D49599119435E2F009A7B02 /* LightGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightGreen.png; sourceTree = "<group>"; };
-		3D49599219435E2F009A7B02 /* Opacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opacity.png; sourceTree = "<group>"; };
-		3D49599319435E2F009A7B02 /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r.png; sourceTree = "<group>"; };
-		3D49599419435E2F009A7B02 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
-		3D49599519435E2F009A7B02 /* reset-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset-Small.png"; sourceTree = "<group>"; };
-		3D49599619435E2F009A7B02 /* Save-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save-Small.png"; sourceTree = "<group>"; };
-		3D49599719435E2F009A7B02 /* Setting-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-1.png"; sourceTree = "<group>"; };
-		3D49599819435E2F009A7B02 /* Setting-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-2.png"; sourceTree = "<group>"; };
-		3D49599919435E2F009A7B02 /* thickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thickness.png; sourceTree = "<group>"; };
-		3D49599A19435E2F009A7B02 /* width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = width.png; sourceTree = "<group>"; };
-		3D49599B19435E2F009A7B02 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +56,6 @@
 		2DF29553152E3E5E00969127 = {
 			isa = PBXGroup;
 			children = (
-				3D49594419434FE6009A7B02 /* ColorPopover */,
 				2DF29568152E3E5F00969127 /* Drawi */,
 				2DF29561152E3E5F00969127 /* Frameworks */,
 				2DF2955F152E3E5F00969127 /* Products */,
@@ -192,7 +89,6 @@
 				2DF29574152E3E5F00969127 /* SBViewController.h */,
 				2DF29575152E3E5F00969127 /* SBViewController.m */,
 				2DF29577152E3E5F00969127 /* SBViewController.xib */,
-				3D49598519435E2F009A7B02 /* Graphics */,
 				2DF29569152E3E5F00969127 /* Supporting Files */,
 				2DF2957F152E3EA500969127 /* Canvas.h */,
 				2DF29580152E3EA500969127 /* Canvas.m */,
@@ -209,92 +105,6 @@
 				2DF29570152E3E5F00969127 /* Drawi-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3D49594419434FE6009A7B02 /* ColorPopover */ = {
-			isa = PBXGroup;
-			children = (
-				3D49594519434FE6009A7B02 /* ColorButton.h */,
-				3D49594619434FE6009A7B02 /* ColorButton.m */,
-				3D49594719434FE6009A7B02 /* ColorViewController.h */,
-				3D49594819434FE6009A7B02 /* ColorViewController.m */,
-				3D49594919434FE6009A7B02 /* ColorPopoverLocalizable.strings */,
-				3D49594B19434FE6009A7B02 /* GzColors.h */,
-				3D49594C19434FE6009A7B02 /* GzColors.m */,
-				3D49594D19434FE6009A7B02 /* Popover */,
-				3D49595719434FE6009A7B02 /* popoverImages */,
-			);
-			name = ColorPopover;
-			path = Drawi/ColorPopover;
-			sourceTree = "<group>";
-		};
-		3D49594D19434FE6009A7B02 /* Popover */ = {
-			isa = PBXGroup;
-			children = (
-				3D49594E19434FE6009A7B02 /* UIBarButtonItem+WEPopover.h */,
-				3D49594F19434FE6009A7B02 /* UIBarButtonItem+WEPopover.m */,
-				3D49595019434FE6009A7B02 /* WEPopoverContainerView.h */,
-				3D49595119434FE6009A7B02 /* WEPopoverContainerView.m */,
-				3D49595219434FE6009A7B02 /* WEPopoverController.h */,
-				3D49595319434FE6009A7B02 /* WEPopoverController.m */,
-				3D49595419434FE6009A7B02 /* WEPopoverParentView.h */,
-				3D49595519434FE6009A7B02 /* WETouchableView.h */,
-				3D49595619434FE6009A7B02 /* WETouchableView.m */,
-			);
-			path = Popover;
-			sourceTree = "<group>";
-		};
-		3D49595719434FE6009A7B02 /* popoverImages */ = {
-			isa = PBXGroup;
-			children = (
-				3D49595819434FE6009A7B02 /* cache2.png */,
-				3D49595919434FE6009A7B02 /* popoverArrowDown.png */,
-				3D49595A19434FE6009A7B02 /* popoverArrowDown@2x.png */,
-				3D49595B19434FE6009A7B02 /* popoverArrowDownSimple.png */,
-				3D49595C19434FE6009A7B02 /* popoverArrowLeft.png */,
-				3D49595D19434FE6009A7B02 /* popoverArrowLeft@2x.png */,
-				3D49595E19434FE6009A7B02 /* popoverArrowLeftSimple.png */,
-				3D49595F19434FE6009A7B02 /* popoverArrowRight.png */,
-				3D49596019434FE6009A7B02 /* popoverArrowRight@2x.png */,
-				3D49596119434FE6009A7B02 /* popoverArrowRightSimple.png */,
-				3D49596219434FE6009A7B02 /* popoverArrowUp.png */,
-				3D49596319434FE6009A7B02 /* popoverArrowUp@2x.png */,
-				3D49596419434FE6009A7B02 /* popoverArrowUpSimple.png */,
-				3D49596519434FE6009A7B02 /* popoverBg.png */,
-				3D49596619434FE6009A7B02 /* popoverBg@2x.png */,
-				3D49596719434FE6009A7B02 /* popoverBgSimple.png */,
-				3D49596819434FE6009A7B02 /* README */,
-			);
-			path = popoverImages;
-			sourceTree = "<group>";
-		};
-		3D49598519435E2F009A7B02 /* Graphics */ = {
-			isa = PBXGroup;
-			children = (
-				3D49598619435E2F009A7B02 /* b.png */,
-				3D49598719435E2F009A7B02 /* Black.png */,
-				3D49598819435E2F009A7B02 /* Blue.png */,
-				3D49598919435E2F009A7B02 /* Brown.png */,
-				3D49598A19435E2F009A7B02 /* Custom-Color.png */,
-				3D49598B19435E2F009A7B02 /* DarkGreen.png */,
-				3D49598C19435E2F009A7B02 /* DarkOrange.png */,
-				3D49598D19435E2F009A7B02 /* Eraser.png */,
-				3D49598E19435E2F009A7B02 /* g.png */,
-				3D49598F19435E2F009A7B02 /* Grey.png */,
-				3D49599019435E2F009A7B02 /* LightBlue.png */,
-				3D49599119435E2F009A7B02 /* LightGreen.png */,
-				3D49599219435E2F009A7B02 /* Opacity.png */,
-				3D49599319435E2F009A7B02 /* r.png */,
-				3D49599419435E2F009A7B02 /* Red.png */,
-				3D49599519435E2F009A7B02 /* reset-Small.png */,
-				3D49599619435E2F009A7B02 /* Save-Small.png */,
-				3D49599719435E2F009A7B02 /* Setting-1.png */,
-				3D49599819435E2F009A7B02 /* Setting-2.png */,
-				3D49599919435E2F009A7B02 /* thickness.png */,
-				3D49599A19435E2F009A7B02 /* width.png */,
-				3D49599B19435E2F009A7B02 /* Yellow.png */,
-			);
-			path = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,48 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D49598119434FE6009A7B02 /* README in Resources */,
-				3D49597D19434FE6009A7B02 /* popoverArrowUpSimple.png in Resources */,
-				3D4959AC19435E2F009A7B02 /* Save-Small.png in Resources */,
-				3D49597719434FE6009A7B02 /* popoverArrowLeftSimple.png in Resources */,
-				3D4959A319435E2F009A7B02 /* Eraser.png in Resources */,
-				3D49597519434FE6009A7B02 /* popoverArrowLeft.png in Resources */,
 				2DF2956D152E3E5F00969127 /* InfoPlist.strings in Resources */,
-				3D4959AA19435E2F009A7B02 /* Red.png in Resources */,
-				3D4959A019435E2F009A7B02 /* Custom-Color.png in Resources */,
 				2DF29579152E3E5F00969127 /* SBViewController.xib in Resources */,
-				3D4959AD19435E2F009A7B02 /* Setting-1.png in Resources */,
-				3D49599C19435E2F009A7B02 /* b.png in Resources */,
-				3D4959A819435E2F009A7B02 /* Opacity.png in Resources */,
-				3D49597819434FE6009A7B02 /* popoverArrowRight.png in Resources */,
-				3D4959A719435E2F009A7B02 /* LightGreen.png in Resources */,
-				3D49597919434FE6009A7B02 /* popoverArrowRight@2x.png in Resources */,
-				3D49597E19434FE6009A7B02 /* popoverBg.png in Resources */,
-				3D4959B119435E2F009A7B02 /* Yellow.png in Resources */,
-				3D4959A519435E2F009A7B02 /* Grey.png in Resources */,
-				3D49597319434FE6009A7B02 /* popoverArrowDown@2x.png in Resources */,
-				3D49598019434FE6009A7B02 /* popoverBgSimple.png in Resources */,
-				3D4959AF19435E2F009A7B02 /* thickness.png in Resources */,
-				3D49599F19435E2F009A7B02 /* Brown.png in Resources */,
-				3D4959A419435E2F009A7B02 /* g.png in Resources */,
-				3D49596B19434FE6009A7B02 /* ColorPopoverLocalizable.strings in Resources */,
-				3D49597219434FE6009A7B02 /* popoverArrowDown.png in Resources */,
-				3D49597A19434FE6009A7B02 /* popoverArrowRightSimple.png in Resources */,
-				3D4959A619435E2F009A7B02 /* LightBlue.png in Resources */,
-				3D4959AE19435E2F009A7B02 /* Setting-2.png in Resources */,
-				3D49597119434FE6009A7B02 /* cache2.png in Resources */,
-				3D49597F19434FE6009A7B02 /* popoverBg@2x.png in Resources */,
-				3D49599E19435E2F009A7B02 /* Blue.png in Resources */,
-				3D49597619434FE6009A7B02 /* popoverArrowLeft@2x.png in Resources */,
-				3D49597B19434FE6009A7B02 /* popoverArrowUp.png in Resources */,
-				3D49597419434FE6009A7B02 /* popoverArrowDownSimple.png in Resources */,
-				3D4959B019435E2F009A7B02 /* width.png in Resources */,
-				3D4959A119435E2F009A7B02 /* DarkGreen.png in Resources */,
-				3D49597C19434FE6009A7B02 /* popoverArrowUp@2x.png in Resources */,
-				3D4959A219435E2F009A7B02 /* DarkOrange.png in Resources */,
-				3D4959A919435E2F009A7B02 /* r.png in Resources */,
-				3D49599D19435E2F009A7B02 /* Black.png in Resources */,
-				3D4959AB19435E2F009A7B02 /* reset-Small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,16 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D49596E19434FE6009A7B02 /* WEPopoverContainerView.m in Sources */,
-				3D49597019434FE6009A7B02 /* WETouchableView.m in Sources */,
 				2DF2956F152E3E5F00969127 /* main.m in Sources */,
 				2DF29573152E3E5F00969127 /* SBAppDelegate.m in Sources */,
-				3D49596F19434FE6009A7B02 /* WEPopoverController.m in Sources */,
-				3D49596A19434FE6009A7B02 /* ColorViewController.m in Sources */,
-				3D49596919434FE6009A7B02 /* ColorButton.m in Sources */,
 				2DF29576152E3E5F00969127 /* SBViewController.m in Sources */,
-				3D49596C19434FE6009A7B02 /* GzColors.m in Sources */,
-				3D49596D19434FE6009A7B02 /* UIBarButtonItem+WEPopover.m in Sources */,
 				2DF29581152E3EA500969127 /* Canvas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,14 +193,6 @@
 				2DF29578152E3E5F00969127 /* en */,
 			);
 			name = SBViewController.xib;
-			sourceTree = "<group>";
-		};
-		3D49594919434FE6009A7B02 /* ColorPopoverLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D49594A19434FE6009A7B02 /* en */,
-			);
-			name = ColorPopoverLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

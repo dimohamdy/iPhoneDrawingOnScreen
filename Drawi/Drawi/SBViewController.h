@@ -8,16 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
-#import "WEPopoverController.h"
-#import "ColorViewController.h"
+
 #import "Canvas.h"
 
-@interface SBViewController : UIViewController  <WEPopoverControllerDelegate, UIPopoverControllerDelegate, ColorViewControllerDelegate>{
-    CGFloat red;
-    CGFloat green;
-    CGFloat blue;
-}
-@property (nonatomic, strong) WEPopoverController *wePopoverController;
+@interface SBViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet Canvas *CanvasView;
 
