@@ -26,6 +26,7 @@
     CGFloat blue = 0.0/255.0;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //add you color in RGB  style to pencilColor property
     _CanvasView.pencilColor=[[UIColor alloc]initWithRed:red green:green blue:blue alpha:1];
 
 }
