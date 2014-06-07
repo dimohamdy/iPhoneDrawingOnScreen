@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import "WEPopoverController.h"
+#import "ColorViewController.h"
+#import "Canvas.h"
 
-@interface SBViewController : UIViewController
+@interface SBViewController : UIViewController  <WEPopoverControllerDelegate, UIPopoverControllerDelegate, ColorViewControllerDelegate>
+@property (nonatomic, strong) WEPopoverController *wePopoverController;
+
+@property (strong, nonatomic) IBOutlet Canvas *CanvasView;
 
 @end

@@ -10,7 +10,7 @@
 
 @implementation Canvas
 
-@synthesize location;
+@synthesize location,pencilColor;
 
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];   
@@ -26,7 +26,12 @@
     [self.image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
     CGContextSetLineCap(ctx, kCGLineCapRound);
     CGContextSetLineWidth(ctx, 5.0);
-    CGContextSetRGBStrokeColor(ctx, 1.0, 0.0, 0.0, 1.0);
+    
+    
+    //CGContextSetRGBStrokeColor(ctx, 1.0, 0.0, 0.0, 1.0);
+    CGContextSetStrokeColorWithColor(ctx, [pencilColor CGColor]);
+
+    
     CGContextBeginPath(ctx);
     CGContextMoveToPoint(ctx, location.x, location.y);
     CGContextAddLineToPoint(ctx, currentLocation.x, currentLocation.y);
@@ -46,7 +51,9 @@
     [self.image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
     CGContextSetLineCap(ctx, kCGLineCapRound);
     CGContextSetLineWidth(ctx, 5.0);
-    CGContextSetRGBStrokeColor(ctx, 1.0, 0.0, 0.0, 1.0);
+    //CGContextSetRGBStrokeColor(ctx, 1.0, 0.0, 0.0, 1.0);
+    CGContextSetStrokeColorWithColor(ctx, [pencilColor CGColor]);
+
     CGContextBeginPath(ctx);
     CGContextMoveToPoint(ctx, location.x, location.y);
     CGContextAddLineToPoint(ctx, currentLocation.x, currentLocation.y);

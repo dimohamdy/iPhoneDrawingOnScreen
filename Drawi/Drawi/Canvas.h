@@ -10,8 +10,9 @@
 
 @interface Canvas : UIImageView {
     CGPoint location;
+    UIColor *pencilColor;
 }
 
 @property CGPoint location;
-
+@property  UIColor *pencilColor;
 @end

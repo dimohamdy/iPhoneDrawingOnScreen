@@ -7,6 +7,8 @@
 //
 
 #import "SBViewController.h"
+#import "GzColors.h"
+
 
 @implementation SBViewController
 
@@ -55,6 +57,56 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+#pragma mark -
+#pragma mark WEPopoverControllerDelegate implementation
+
+- (void)popoverControllerDidDismissPopover:(WEPopoverController *)thePopoverController {
+	//Safe to release the popover here
+	self.wePopoverController = nil;
+}
+
+- (BOOL)popoverControllerShouldDismissPopover:(WEPopoverController *)thePopoverController {
+	//The popover is automatically dismissed if you click outside it, unless you return NO here
+	return YES;
+}
+
+
+#pragma mark -
+#pragma mark Button event implementation
+
+- (IBAction)buttonTapped:(id)sender {
+    if (!self.wePopoverController) {
+		
+		ColorViewController *contentViewController = [[ColorViewController alloc] init];
+        contentViewController.delegate = self;
+		self.wePopoverController = [[WEPopoverController alloc] initWithContentViewController:contentViewController];
+		self.wePopoverController.delegate = self;
+//		self.wePopoverController.passthroughViews = [NSArray arrayWithObject:self.navigationController.navigationBar];
+		
+		[self.wePopoverController presentPopoverFromRect:((UIButton*)sender).frame
+                                                  inView:self.view
+                                permittedArrowDirections:(UIPopoverArrowDirectionUp|UIPopoverArrowDirectionDown)
+                                                animated:YES];
+        
+	} else {
+		[self.wePopoverController dismissPopoverAnimated:YES];
+		self.wePopoverController = nil;
+	}
+    
+}
+
+-(void) colorPopoverControllerDidSelectColor:(NSString *)hexColor{
+    //self.view.backgroundColor = [GzColors colorFromHex:hexColor];
+    //[self.view setNeedsDisplay];
+    [self.wePopoverController dismissPopoverAnimated:YES];
+    self.wePopoverController = nil;
+    
+    
+    
+    self.CanvasView.pencilColor=[GzColors colorFromHex:hexColor];
+    [self.CanvasView setNeedsDisplay];
+
 }
 
 @end
