@@ -1,5 +1,13 @@
 Simple Paint iOS
 
-Now you Can change color of the pencil when you draw in Canvas
 
 you Can Draw on UIImage easily with your selected color 
+
+Now you Can change color of the pencil when you draw in Canvas
+
+
+    CGFloat red = 0.0/255.0;
+    CGFloat green = 0.0/255.0;
+    CGFloat blue = 0.0/255.0;
+  // add you color in RGB  style to pencilColor property
+    _CanvasView.pencilColor=[[UIColor alloc]initWithRed:red green:green blue:blue alpha:1];
